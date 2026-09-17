@@ -1,0 +1,102 @@
+body{
+    background-color: seagreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+.cards{
+    display:flex;
+    justify-content: space-around;
+    align-self: center;
+    background-color: burlywood;
+    width: 1300px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-bottom: 50px;
+}
+.topic{
+    background-color: blueviolet;
+    font-size:25px;
+    text-align: center;
+    color:papayawhip;
+    font-family:monospace;
+    margin-bottom: 75px;
+    padding-bottom: 10px;
+}
+.topic1{
+    color: rgb(223, 190, 2);
+}
+.topic2{
+    font-family: monospace;
+    font-size: 30px;
+    background-color: burlywood;
+    text-decoration: double underline #aca900;
+    padding-bottom: 50px;
+    
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.sec-cards{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+.card{
+    background-color: darkblue;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.card:hover{
+    background-color: aqua;
+    color: black;
+}
+.img-card img{
+    height: 100px;
+    width: 150px;
+    border-radius: 20px;
+}
+.img-card{
+    padding-bottom: 25px;
+}   
+footer{
+    background-color: #004738;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: azure;
+    font-size: 25px;
+}
+footer a{
+    background-color: brown;
+    padding: 15px;
+    font-size: 13px;
+    font-family: cursive;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    background-color: coral;
+    color:bisque;
+}
+td,th{
+    padding: 10px;
+}
+.linking{
+    background-color: brown;
+    padding: 15px;
+    font-size: 13px;
+    font-family: cursive;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
